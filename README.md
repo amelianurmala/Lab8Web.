@@ -98,7 +98,6 @@ Tampilan ini memastikan bahwa database sudah siap digunakan oleh aplikasi untuk 
 Pada langkah ini, kita membuat file **koneksi.php** yang berfungsi sebagai penghubung antara aplikasi PHP dengan database MySQL.
 File ini menjadi dasar untuk seluruh file lain seperti **index.php, tambah.php, ubah.php**, dan **hapus.php**, karena semuanya membutuhkan koneksi database.
 
----
 
 ### ** - Membuat File koneksi.php **
 
@@ -130,8 +129,6 @@ Pada kode di atas:
 * **mysqli_connect()** → membuat koneksi ke MySQL
 * Jika gagal → tampilkan pesan error
 * Jika berhasil → tampilkan tulisan **"Koneksi Berhasil!!"**
-
----
 
 ### ** - Menguji Koneksi Melalui Browser **
 
